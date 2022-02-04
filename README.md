@@ -1,6 +1,6 @@
-### ```CONST VCARD 2 KONTAK```
+### CONST VCARD 2 KONTAK
 
-- const-vcard
+```const-vcard
 {
 let ini_list = []
 for (let i of ownerNumber) {
@@ -24,3 +24,4 @@ END:VCARD`
 })
 }
 xdev.sendMessage(from, {"displayName": `ArdaStoreゑ`,"contacts": ini_list }, 'contactsArrayMessage', { quoted: dev, contextInfo: { forwardingScore: 508, isForwarded: true }})
+```
